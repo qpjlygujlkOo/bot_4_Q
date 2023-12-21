@@ -1,0 +1,25 @@
+ 2023-12-18 14:08:48,207 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:08:54,497 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 946
+ 2023-12-18 14:08:54,499 - ERROR - Infinity polling exception: 'Message' object has no attribute 'sticker_file_size'
+ 2023-12-18 14:08:57,512 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:08:57,676 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 14:09:17,674 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:09:37,730 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:09:57,786 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:10:17,838 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:10:37,893 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:10:57,949 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:11:09,044 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632220&timeout=20 HTTP/1.1" 200 533
+ 2023-12-18 14:11:12,153 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632221&timeout=20 HTTP/1.1" 200 450
+ 2023-12-18 14:11:12,156 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:11:12,326 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getMe HTTP/1.1" 200 197
+ 2023-12-18 14:11:12,468 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=-1001689797921&text=%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA%D0%B8%21+%0A%40Igor_Kirichek%2C+%40lexm18%2C+%40from_time_to_time%2C+%40glatemalin%2C+%40inside4276%2C+%40Azamat_Gu%2C+%40lena596&parse_mode=html HTTP/1.1" 200 756
+ 2023-12-18 14:11:32,209 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632222&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:11:50,637 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632222&timeout=20 HTTP/1.1" 200 1313
+ 2023-12-18 14:11:57,837 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632223&timeout=20 HTTP/1.1" 200 1344
+ 2023-12-18 14:12:14,661 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632224&timeout=20 HTTP/1.1" 200 1218
+ 2023-12-18 14:12:19,183 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632225&timeout=20 HTTP/1.1" 200 442
+ 2023-12-18 14:12:29,063 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632226&timeout=20 HTTP/1.1" 200 479
+ 2023-12-18 14:12:49,121 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632227&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:13:09,182 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632227&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:13:29,239 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632227&timeout=20 HTTP/1.1" 200 23

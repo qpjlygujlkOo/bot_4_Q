@@ -1,0 +1,9 @@
+ 2023-12-18 14:51:46,489 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:51:50,144 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 988
+ 2023-12-18 14:51:50,146 - ERROR - Infinity polling exception: 'NoneType' object is not subscriptable
+ 2023-12-18 14:51:53,152 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:51:53,310 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632282&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 14:51:58,966 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632282&timeout=20 HTTP/1.1" 200 895
+ 2023-12-18 14:51:58,967 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_size'
+ 2023-12-18 14:52:01,981 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:52:02,144 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632283&timeout=20 HTTP/1.1" 409 143

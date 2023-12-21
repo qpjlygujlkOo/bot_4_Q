@@ -1,0 +1,13 @@
+ 2023-12-18 13:40:45,215 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 13:40:54,868 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 996
+ 2023-12-18 13:40:54,871 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_name'
+ 2023-12-18 13:40:57,886 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 13:40:58,080 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632196&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 13:41:03,834 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632196&timeout=20 HTTP/1.1" 200 425
+ 2023-12-18 13:41:03,836 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 13:41:03,995 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getMe HTTP/1.1" 200 197
+ 2023-12-18 13:41:04,173 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%D0%9C%D0%B0%D0%BD%D0%B0%D0%B6%D0%B5%D1%80%D1%8B%21+%0A%40Becky_Bones%2C+%40OlgaStupenkova&parse_mode=html HTTP/1.1" 200 453
+ 2023-12-18 13:41:11,505 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632197&timeout=20 HTTP/1.1" 200 1070
+ 2023-12-18 13:41:11,507 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_name'
+ 2023-12-18 13:41:14,521 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 13:41:14,678 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632198&timeout=20 HTTP/1.1" 409 143

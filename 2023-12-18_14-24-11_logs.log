@@ -1,0 +1,12 @@
+ 2023-12-18 14:24:11,435 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:24:21,033 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 988
+ 2023-12-18 14:24:21,036 - ERROR - Infinity polling exception: 'Message' object has no attribute 'sticker_file_size'
+ 2023-12-18 14:24:24,051 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:24:24,207 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632243&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 14:24:25,538 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632243&timeout=20 HTTP/1.1" 200 988
+ 2023-12-18 14:24:25,539 - ERROR - Infinity polling exception: 'Message' object has no attribute 'sticker_file_size'
+ 2023-12-18 14:24:28,549 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:24:28,712 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632244&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 14:24:48,714 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632244&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:25:08,772 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632244&timeout=20 HTTP/1.1" 200 23
+ 2023-12-18 14:25:28,824 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632244&timeout=20 HTTP/1.1" 200 23

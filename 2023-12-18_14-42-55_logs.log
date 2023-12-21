@@ -1,0 +1,17 @@
+ 2023-12-18 14:42:55,192 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:42:59,948 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 988
+ 2023-12-18 14:42:59,950 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_size'
+ 2023-12-18 14:43:02,958 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:43:03,131 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632274&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 14:43:03,976 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632274&timeout=20 HTTP/1.1" 200 988
+ 2023-12-18 14:43:03,977 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_size'
+ 2023-12-18 14:43:06,990 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:43:07,163 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632275&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 14:43:18,196 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632275&timeout=20 HTTP/1.1" 200 946
+ 2023-12-18 14:43:18,198 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_size'
+ 2023-12-18 14:43:21,205 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:43:21,374 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632276&timeout=20 HTTP/1.1" 409 143
+ 2023-12-18 14:43:27,201 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632276&timeout=20 HTTP/1.1" 200 895
+ 2023-12-18 14:43:27,202 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_size'
+ 2023-12-18 14:43:30,218 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-18 14:43:30,386 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632277&timeout=20 HTTP/1.1" 409 143
