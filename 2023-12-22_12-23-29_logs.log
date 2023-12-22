@@ -1,0 +1,12 @@
+ 2023-12-22 12:23:29,570 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-22 12:23:29,736 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 1920
+ 2023-12-22 12:23:29,739 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-22 12:23:29,739 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-22 12:23:29,937 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%D7%91%D7%AA%D7%90%D7%91%D7%95%D7%9F%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 360
+ 2023-12-22 12:23:29,971 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=Dobar+tek%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 333
+ 2023-12-22 12:23:30,035 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=Dobar+tek%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 333
+ 2023-12-22 12:23:30,069 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=Hyv%C3%A4%C3%A4+ruokahalua%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 350
+ 2023-12-22 12:23:30,086 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getMe HTTP/1.1" 200 197
+ 2023-12-22 12:23:30,222 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA%D0%B8%21+%0A%40Igor_Kirichek%2C+%40lexm18%2C+%40from_time_to_time%2C+%40glatemalin%2C+%40inside4276%2C+%40Azamat_Gu%2C+%40lena596&parse_mode=html HTTP/1.1" 200 752
+ 2023-12-22 12:23:34,119 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633165&timeout=20 HTTP/1.1" 200 394
+ 2023-12-22 12:23:34,206 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%D0%90%D1%81+%D0%B1%D0%BE%D0%BB%D1%81%D1%8B%D0%BD%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 373

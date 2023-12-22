@@ -183,10 +183,10 @@ def handle_text(message):
     elif (message.from_user.username == igor1) and (message.text.casefold() in lunch_synonyms):
         bot.send_message(message.chat.id, f'{bon}, Игорямба!')
         print(message.chat.id)
-    elif (message.from_user.username == ats) and (message.text.casefold() in lunch_synonyms):
-        atsa = open('gif/ats.gif', 'rb')
-        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
-        bot.send_animation(message.chat.id, atsa)
+    # elif (message.from_user.username == ats) and (message.text.casefold() in lunch_synonyms):
+    #     atsa = open('gif/ats.gif', 'rb')
+    #     bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+    #     bot.send_animation(message.chat.id, atsa)
 #             def cb():
 #                 bot.send_message(message.chat.id, '@Igor_Kirichek с возвращением Игорь!')
 #
@@ -222,6 +222,7 @@ def otkrytka1():
     # return schedule.CancelJob
 
 # Попытка переиграть Черноярова
+
 
 @bot.message_handler(content_types=['sticker', 'document', 'photo'])
 def handle_sticker(message):

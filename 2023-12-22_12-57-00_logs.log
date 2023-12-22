@@ -1,0 +1,6 @@
+ 2023-12-22 12:57:00,694 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-22 12:57:04,737 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 365
+ 2023-12-22 12:57:10,095 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633185&timeout=20 HTTP/1.1" 200 394
+ 2023-12-22 12:57:10,098 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-22 12:57:10,319 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=Buen+provecho%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 337
+ 2023-12-22 12:57:30,149 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633186&timeout=20 HTTP/1.1" 200 23
