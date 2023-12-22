@@ -1,0 +1,7 @@
+ 2023-12-22 12:11:44,952 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-22 12:11:48,550 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 394
+ 2023-12-22 12:11:48,555 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2023-12-22 12:11:48,768 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%D0%A1%D0%BC%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%2C+Igor%21 HTTP/1.1" 200 328
+ 2023-12-22 12:12:08,615 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633155&timeout=20 HTTP/1.1" 200 23
+ 2023-12-22 12:12:28,677 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633155&timeout=20 HTTP/1.1" 200 23
+ 2023-12-22 12:12:48,731 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633155&timeout=20 HTTP/1.1" 200 23

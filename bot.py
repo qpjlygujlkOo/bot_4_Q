@@ -116,9 +116,9 @@ lunch_synonyms = [
     "0,5 обеда"
 ]
 
-kir1 = "Azamat_Gu"
+aza = "Azamat_Gu"
 igor1 = "Igor_Kirichek"
-ats = "@LM001048596B"
+ats = "LM001048596B"
 
 dnrstc1 = "AgADAgADA8KlDg"
 dnrstc2 = "AgADZgADqregFw"
@@ -176,17 +176,17 @@ def meetup(message):
 
 def handle_text(message):
     bon = random.choice(dict)
-    if (message.from_user.username == kir11) and (message.text.casefold() in lunch_synonyms):
+    if (message.from_user.username == aza) and (message.text.casefold() in lunch_synonyms):
         exp = open('gif/exp.gif', 'rb')
         bot.send_message(message.chat.id, f'ب الهناء والشفاء / بالهنا والشف!, {message.from_user.first_name}!')
         bot.send_animation(message.chat.id, exp)
     elif (message.from_user.username == igor1) and (message.text.casefold() in lunch_synonyms):
         bot.send_message(message.chat.id, f'{bon}, Игорямба!')
         print(message.chat.id)
-    elif (message.from_user.username == kir1) and (message.text.casefold() in lunch_synonyms):
-        exp = open('gif/ats.gif', 'rb')
+    elif (message.from_user.username == ats) and (message.text.casefold() in lunch_synonyms):
+        atsa = open('gif/ats.gif', 'rb')
         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
-        bot.send_animation(message.chat.id, exp)
+        bot.send_animation(message.chat.id, atsa)
 #             def cb():
 #                 bot.send_message(message.chat.id, '@Igor_Kirichek с возвращением Игорь!')
 #
