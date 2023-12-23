@@ -265,7 +265,12 @@ def handle_sticker(message):
 #     chatid = message.chat.id
 
 def lol():
-    schedule.every().day.at("10:00", "Europe/Moscow").do(otkrytka1)
+    schedule.every().monday.at("10:00", "Europe/Moscow").do(otkrytka1)
+    schedule.every().tuesday.at("10:00", "Europe/Moscow").do(otkrytka1)
+    schedule.every().wednesday.at("10:00", "Europe/Moscow").do(otkrytka1)
+    schedule.every().thursday.at("10:00", "Europe/Moscow").do(otkrytka1)
+    schedule.every().friday.at("10:00", "Europe/Moscow").do(otkrytka1)
+
 
     while True:
         schedule.run_pending()
