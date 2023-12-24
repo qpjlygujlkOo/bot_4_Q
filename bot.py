@@ -233,7 +233,11 @@ def otkrytka1():
     fullpath = os.path.join(dirpath, random_photo)
     with open(fullpath, 'rb') as f:
         bot.send_photo(-1001210129344, f)
+    with open(fullpath, 'rb') as f:
         bot.send_photo(110309785, f)
+    with open(fullpath, 'rb') as f:
+        bot.send_photo(484742701, f)
+
     # return schedule.CancelJob
 
 
