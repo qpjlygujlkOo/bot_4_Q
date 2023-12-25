@@ -248,11 +248,12 @@ def otkrytka1():
 def handle_sticker(message):
     print(message.chat.id, message, file=open('messages.txt', 'a'))
     stickersize = message.sticker.file_size
-    # photosize = message.photo[0].file_size
+    stickersetname = message.sticker.set_name# photosize = message.photo[0].file_size
     sender = message.from_user.username
     # print(photosize)
     print(stickersize)
-    if stickersize == 25316:
+    # if stickersize == 25316:
+    if stickersetname == None:
         # if sender == 'DmitryChernoyarov':
         bon = random.choice(dict)
         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
