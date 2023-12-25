@@ -1,17 +1,25 @@
-import web
+from flask import Flask
+from flask import request
 
-urls = ('/.*', 'hooks')
+# git update from webhooks
+import git
 
-app = web.application(urls, globals())
+app = Flask(__name__)
 
-class hooks:
-    def POST(self):
-        data = web.data()
-        print
-        print 'DATA RECEIVED:'
-        print data
-        print
-        return 'OK'
 
-if __name__ == '__main__':
-    app.run()
+# @app.route('/')
+@app.route('/QhKDYlxvf38pJJ9/')
+def index():
+    return "Flask APP, Telebot"
+
+
+# git auto pull after push
+@app.route('/https://smee.io', methods=['POST'])
+def webhook_git():
+    if request.method == 'POST':
+        repo = git.Repo('./mysite')
+        repo.remotes.origin.pull('main')
+
+        return 'Updated PythonAnywhere successfully', 200
+    else:
+        return 'Wrong event type', 400
