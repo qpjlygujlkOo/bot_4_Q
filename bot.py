@@ -213,26 +213,13 @@ def otkrytka1():
     photofile = os.listdir('img')
     random_photo = random.choice(photofile)
     fullpath = os.path.join(dirpath, random_photo)
-<<<<<<< Updated upstream
     with open(fullpath, 'rb') as f:
         bot.send_photo(-1001210129344, f)
         bot.send_photo(110309785, f)
-=======
-    ng = "С Новым Годом!!!"
-    bot.send_message(-1001210129344, ng.format(parse_mode='html'))
-    # with open(fullpath, 'rb') as f:
-    #     bot.send_photo(-1001210129344, f)
-    # with open(fullpath, 'rb') as f:
-    #     bot.send_photo(110309785, f)
-    # with open(fullpath, 'rb') as f:
-    #     bot.send_photo(484742701, f)
-
->>>>>>> Stashed changes
     # return schedule.CancelJob
 
 # Попытка переиграть Черноярова
 
-<<<<<<< Updated upstream
 # @bot.message_handler(content_types=['sticker', 'document', 'photo'])
 # def handle_sticker(message):
 #    print(message.chat.id, message, file=open('messages.txt', 'a'))
@@ -246,25 +233,6 @@ def otkrytka1():
 #        bon = random.choice(dict)
 #        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
 #        print('соси')
-=======
-
-# @bot.message_handler(content_types=['sticker', 'document', 'photo'])
-# def handle_sticker(message):
-#     print(message.chat.id, message, file=open('messages.txt', 'a'))
-#     stickersize = message.sticker.file_size
-#     stickersetname = message.sticker.set_name# photosize = message.photo[0].file_size
-#     sender = message.from_user.username
-#     # print(photosize)
-#     print(stickersize)
-#     # if stickersize == 25316:
-#     if stickersetname == None:
-#         # if sender == 'DmitryChernoyarov':
-#         bon = random.choice(dict)
-#         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
-#         print('соси')
-
-
->>>>>>> Stashed changes
 #     elif (stickersize == 25316342424):
 #         print('несоси')
 # @bot.message_handler()
@@ -275,16 +243,7 @@ def otkrytka1():
 #     chatid = message.chat.id
 
 def lol():
-<<<<<<< Updated upstream
-    schedule.every().day.at("10:00", "Europe/Moscow").do(otkrytka1)
-=======
-    schedule.every().monday.at("10:00", "Europe/Moscow").do(otkrytka1)
-    schedule.every().tuesday.at("10:00", "Europe/Moscow").do(otkrytka1)
-    schedule.every().wednesday.at("10:00", "Europe/Moscow").do(otkrytka1)
-    schedule.every().thursday.at("10:00", "Europe/Moscow").do(otkrytka1)
-    schedule.every().day.at("00:00", "Europe/Moscow").do(otkrytka1)
-
->>>>>>> Stashed changes
+    schedule.every().day.at("11:00", "Europe/Moscow").do(otkrytka1)
 
     while True:
         schedule.run_pending()
