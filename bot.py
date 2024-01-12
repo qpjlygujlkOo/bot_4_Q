@@ -243,7 +243,7 @@ def otkrytka1():
 #     chatid = message.chat.id
 
 def lol():
-    schedule.every().day.at("11:00", "Europe/Moscow").do(otkrytka1)
+    schedule.every().day.at("10:00", "Europe/Moscow").do(otkrytka1)
 
     while True:
         schedule.run_pending()
