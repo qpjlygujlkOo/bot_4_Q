@@ -128,43 +128,52 @@ dnrstc2 = "AgADZgADqregFw"
 # def key(message):
 #     bot.send.message(message.chat.id, 'токен' + key.format(message.from_user, bot.get_me()),parse_mode='html')
 
+
 @bot.message_handler(commands=['qa'])
- 
 def qa(message):
     bot.send_message(message.chat.id,'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),parse_mode='html')
 
+
 @bot.message_handler(commands=['tl'])
- 
 def tl(message):
     bot.send_message(message.chat.id,'Тимлиды! \n' + tl1.format(message.from_user, bot.get_me()),parse_mode='html')
 
+
 @bot.message_handler(commands=['front'])
- 
 def front(message):
     bot.send_message(message.chat.id,'Фронты! \n' + front1.format(message.from_user, bot.get_me()),parse_mode='html')
 
+
 @bot.message_handler(commands=['back'])
- 
 def back(message):
     bot.send_message(message.chat.id,'Бэки! \n' + back1.format(message.from_user, bot.get_me()),parse_mode='html')
 
+
 @bot.message_handler(commands=['pm'])
- 
 def mgr(message):
     bot.send_message(message.chat.id,'Манажеры! \n' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
 
-@bot.message_handler(commands=['aqa'])
 
+@bot.message_handler(commands=['aqa'])
 def aqa(message):
-    bot.send_message(message.chat.id,'Авто<s>боты</s>тестировщики! \n' + aqa1.format(message.from_user, bot.get_me()),parse_mode='html')
+    bot.send_message(message.chat.id,'Авто<s>боты</s>тестировщики! \n' + aqa1.format(message.from_user, bot.get_me()), parse_mode='html')
+
 
 @bot.message_handler(commands=['all'])
- 
 def all(message):
-    bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
+    bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' +
+                     qa1.format(message.from_user, bot.get_me()), parse_mode='html')
+    bot.send_message(message.chat.id,
+                     tl1.format(message.from_user, bot.get_me()), parse_mode='html')
+    bot.send_message(message.chat.id,
+                     front1.format(message.from_user, bot.get_me()), parse_mode='html')
+    bot.send_message(message.chat.id,
+                     back1.format(message.from_user, bot.get_me()), parse_mode='html')
+    bot.send_message(message.chat.id,
+                     pm1.format(message.from_user, bot.get_me()), parse_mode='html')
+
 
 @bot.message_handler(commands=['meet'])
- 
 def meetup(message):
     sti = open('stick/sticker.webp', 'rb')
 
@@ -173,7 +182,6 @@ def meetup(message):
     bot.send_sticker(message.chat.id, sti)
     bot.send_message(message.chat.id, f'https://meet.google.com/bxq-nsek-ept')
 @bot.message_handler(content_types=['text'])
-
 def handle_text(message):
     if (message.from_user.username == kir1) and (message.text.casefold() in lunch_synonyms):
         exp = open('gif/exp.gif', 'rb')
