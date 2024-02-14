@@ -52,7 +52,7 @@ def main():
 
 
 key = (token)
-qa1 = ('@Igor_Kirichek, @lexm18, @from_time_to_time, @glatemalin, @inside4276, @Azamat_Gu, @lena596')
+qa1 = ('@Igor_Kirichek, @lexm18, @from_time_to_time, @glatemalin, @Azamat_Gu, @lena596')
 tl1 = ('@ivleonov, @oblivantseva, @av_sorokin')
 tlqa = ('@gryzb1')
 back1 = ('@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @nikitaSavvateev')
@@ -256,6 +256,7 @@ def lol():
     schedule.every().wednesday.at("10:00", "Europe/Moscow").do(otkrytka1)
     schedule.every().thursday.at("10:00", "Europe/Moscow").do(otkrytka1)
     schedule.every().friday.at("10:00", "Europe/Moscow").do(otkrytka1)
+
     while True:
         schedule.run_pending()
         time.sleep(1)
