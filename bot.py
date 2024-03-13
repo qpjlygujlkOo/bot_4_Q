@@ -187,7 +187,7 @@ def meetup(message):
     bot.send_message(message.chat.id, f'https://meet.google.com/bxq-nsek-ept')
 
 
-@bot.message_handler(content_types=['text'])
+@bot.message_handler(content_types=['text', 'photo'])
 def handle_text(message):
     if (message.from_user.username == aza) and (message.text.casefold() in lunch_synonyms):
         exp = open('gif/exp.gif', 'rb')
@@ -203,8 +203,10 @@ def handle_text(message):
         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
         bot.send_animation(message.chat.id, atsa)
     elif (message.from_user.username == zhe) and (message.text.casefold() in lunch_synonyms):
-#        bon = random.choice(dict)
+#       bon = random.choice(dict)
         igor1 = open('gif/zhe.jpg', 'rb')
+        bot.send_photo(message.chat.id, igor1)
+
 #        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
         bot.send_photo(message.chat.id, igor1)
     #             def cb():
