@@ -123,6 +123,7 @@ lunch_synonyms = [
 aza = "Azamat_Gu"
 igor1 = "Igor_Kirichek"
 ats = "LM001048596B"
+zhe = "Igor_Kirichek"
 
 dnrstc1 = "AgADAgADA8KlDg"
 dnrstc2 = "AgADZgADqregFw"
@@ -201,6 +202,11 @@ def handle_text(message):
         atsa = open('gif/ats.gif', 'rb')
         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
         bot.send_animation(message.chat.id, atsa)
+    elif (message.from_user.username == zhe) and (message.text.casefold() in lunch_synonyms):
+#        bon = random.choice(dict)
+        igor1 = open('gif/zhe.jpg', 'rb')
+#        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+        bot.send_photo(message.chat.id, igor1)
     #             def cb():
     #                 bot.send_message(message.chat.id, '@Igor_Kirichek с возвращением Игорь!')
     #
