@@ -121,7 +121,7 @@ lunch_synonyms = [
 ]
 
 aza = "Azamat_Gu"
-igor1 = "Igor_Kirichek"
+igor2 = "Igor_Kirichek"
 ats = "LM001048596B"
 zhe = "Igor_Kirichek"
 
@@ -193,7 +193,7 @@ def handle_text(message):
         exp = open('gif/exp.gif', 'rb')
         bot.send_message(message.chat.id, f'ب الهناء والشفاء / بالهنا والشف!, {message.from_user.first_name}!')
         bot.send_animation(message.chat.id, exp)
-    elif (message.from_user.username == igor1) and (message.text.casefold() in lunch_synonyms):
+    elif (message.from_user.username == igor2) and (message.text.casefold() in lunch_synonyms):
         bon = random.choice(dict)
         bot.send_message(message.chat.id, f'{bon}, Игорямба!')
         print(message.chat.id)
