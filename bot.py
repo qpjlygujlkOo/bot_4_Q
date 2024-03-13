@@ -193,10 +193,10 @@ def handle_text(message):
         exp = open('gif/exp.gif', 'rb')
         bot.send_message(message.chat.id, f'ب الهناء والشفاء / بالهنا والشف!, {message.from_user.first_name}!')
         bot.send_animation(message.chat.id, exp)
-    elif (message.from_user.username == igor2) and (message.text.casefold() in lunch_synonyms):
-        bon = random.choice(dict)
-        bot.send_message(message.chat.id, f'{bon}, Игорямба!')
-        print(message.chat.id)
+    # elif (message.from_user.username == igor2) and (message.text.casefold() in lunch_synonyms):
+    #     bon = random.choice(dict)
+    #     bot.send_message(message.chat.id, f'{bon}, Игорямба!')
+    #     print(message.chat.id)
     elif (message.from_user.username == ats) and (message.text.casefold() in lunch_synonyms):
         bon = random.choice(dict)
         atsa = open('gif/ats.gif', 'rb')
