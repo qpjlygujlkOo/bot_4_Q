@@ -1,6 +1,0 @@
- 2023-12-22 12:09:02,940 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-22 12:09:03,101 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 394
- 2023-12-22 12:09:03,103 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-22 12:09:03,372 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=Smakelijk+eten%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 338
- 2023-12-22 12:09:08,682 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633150&timeout=20 HTTP/1.1" 200 394
- 2023-12-22 12:09:08,757 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%99%2C+%D0%98%D0%B3%D0%BE%D1%80%D1%8F%D0%BC%D0%B1%D0%B0%21 HTTP/1.1" 200 360

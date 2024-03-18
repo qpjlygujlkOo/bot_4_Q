@@ -1,5 +1,0 @@
- 2023-12-18 13:41:24,469 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-18 13:41:29,922 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 1070
- 2023-12-18 13:41:29,925 - ERROR - Infinity polling exception: 'NoneType' object has no attribute 'file_name'
- 2023-12-18 13:41:32,935 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-18 13:41:33,105 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632199&timeout=20 HTTP/1.1" 409 143

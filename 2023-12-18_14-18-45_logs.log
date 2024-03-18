@@ -1,9 +1,0 @@
- 2023-12-18 14:18:45,897 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-18 14:18:47,962 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 988
- 2023-12-18 14:19:08,042 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632234&timeout=20 HTTP/1.1" 200 23
- 2023-12-18 14:19:15,105 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632234&timeout=20 HTTP/1.1" 200 424
- 2023-12-18 14:19:15,110 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-18 14:19:15,383 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=-1001210129344&text=Kal%C3%AD+%C3%B3re%D1%85i+%CE%BA%CE%B1%CE%BB%CE%AE+%CF%8C%CF%81%CE%B5%CE%BE%CE%B7%2C+%D0%98%D0%BB%D1%8C%D1%8F%21 HTTP/1.1" 200 417
- 2023-12-18 14:19:33,859 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417632235&timeout=20 HTTP/1.1" 200 383
- 2023-12-18 14:19:33,861 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-18 14:19:34,110 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=-1001210129344&text=Kal%C3%AD+%C3%B3re%D1%85i+%CE%BA%CE%B1%CE%BB%CE%AE+%CF%8C%CF%81%CE%B5%CE%BE%CE%B7%2C+Elena%21 HTTP/1.1" 200 398

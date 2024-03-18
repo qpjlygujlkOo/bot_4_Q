@@ -1,5 +1,0 @@
- 2023-12-22 12:09:48,251 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-22 12:09:52,238 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 394
- 2023-12-22 12:09:52,241 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
- 2023-12-22 12:09:52,498 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=Velbekomme%2C+Igor%21 HTTP/1.1" 200 290
- 2023-12-22 12:10:12,296 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417633152&timeout=20 HTTP/1.1" 200 23
