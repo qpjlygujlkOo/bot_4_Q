@@ -56,7 +56,7 @@ def main():
 
 key = (token)
 qa1 = ('@Igor_Kirichek, @lexm18, @from_time_to_time, @glatemalin, @inside4276, @Azamat_Gu, @lena596')
-tl1 = ('@ivleonov, @av_sorokin')
+tl1 = ('@ivleonov, @oblivantseva, @av_sorokin')
 tlqa = ('@gryzb1')
 back1 = ('@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @nikitaSavvateev')
 front1 = ('@chimir, @LM001048596B')
@@ -202,20 +202,20 @@ def handle_text(message):
         atsa = open('gif/ats.gif', 'rb')
         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
         bot.send_animation(message.chat.id, atsa)
-#     elif (message.from_user.username == zhe) and (message.text.casefold() in lunch_synonyms):
-# #       bon = random.choice(dict)
-#         igor1 = open('gif/zhe.jpg', 'rb')
-#         bot.send_photo(message.chat.id, igor1)
-#
-#        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
-#         bot.send_photo(message.chat.id, igor1)
+    elif (message.from_user.username == zhe) and (message.text.casefold() in lunch_synonyms):
+#       bon = random.choice(dict)
+        igor1 = open('gif/zhe.jpg', 'rb')
+        bot.send_photo(message.chat.id, igor1)
+
+       bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+        bot.send_photo(message.chat.id, igor1)
     #             def cb():
     #                 bot.send_message(message.chat.id, '@Igor_Kirichek с возвращением Игорь!')
     #
     #             delay = 3600
     #             timer = threading.Timer(delay, cb)
     #             timer.start()
-    elif message.text.casefold() in lunch_synonyms:
+    elif (message.text.casefold() == dnr1 or message.text.casefold() in lunch_synonyms):
         bon = random.choice(dict)
         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
         print(message.chat.id)
