@@ -122,7 +122,7 @@ lunch_synonyms = [
 
 aza = "Azamat_Gu"
 igor2 = "Igor_Kirichek"
-ats = "LM001048596B"
+ats = "a2aev"
 zhe = "chimir"
 
 dnrstc1 = "AgADAgADA8KlDg"
