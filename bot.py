@@ -56,7 +56,7 @@ def main():
 
 key = (token)
 qa1 = ('@Igor_Kirichek, @lexm18, @from_time_to_time, @glatemalin, @inside4276, @Azamat_Gu, @lena596')
-tl1 = ('@ivleonov, @av_sorokin')
+tl1 = ('@ivleonov, @oblivantseva, @av_sorokin')
 tlqa = ('@gryzb1')
 back1 = ('@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @nikitaSavvateev')
 front1 = ('@chimir, @LM001048596B')
