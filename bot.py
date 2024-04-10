@@ -14,11 +14,12 @@ from time import sleep
 from pytz import timezone
 import pytz
 
-
 now = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 logger = telebot.logger
 logging.basicConfig(filename = f'{now}_logs.log', level=logging.DEBUG,
                     format=' %(asctime)s - %(levelname)s - %(message)s')
+
+
 # print(logging.__file__)
 # logger = telebot.logger
 # logging.basicConfig(filename='logs.log',
@@ -43,10 +44,12 @@ f = open('dict.txt', 'r', encoding='utf-8')
 list = f.read().split('\n')
 dict = tuple(list)
 
+
 def main():
     # ...
     port = os.getenv('PORT', default=8000)
     updater.start_webhook(port=port)
+
 
 # bot = telebot.TeleBot(config1.TOKEN)
 
@@ -117,8 +120,9 @@ lunch_synonyms = [
     "0,5 обеда"
 ]
 
-kir1 = "Azamat_Gu"
-igor1 = "Igor_Kirichek"
+aza = "Azamat_Gu"
+igor2 = "Igor_Kirichek"
+ats = "a2aev"
 
 dnrstc1 = "AgADAgADA8KlDg"
 dnrstc2 = "AgADZgADqregFw"
@@ -181,27 +185,40 @@ def meetup(message):
     time.sleep(2)
     bot.send_sticker(message.chat.id, sti)
     bot.send_message(message.chat.id, f'https://meet.google.com/bxq-nsek-ept')
+
+
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
-    if (message.from_user.username == kir1) and (message.text.casefold() in lunch_synonyms):
+    if (message.from_user.username == aza) and (message.text.casefold() in lunch_synonyms):
         exp = open('gif/exp.gif', 'rb')
         bot.send_message(message.chat.id, f'ب الهناء والشفاء / بالهنا والشف!, {message.from_user.first_name}!')
         bot.send_animation(message.chat.id, exp)
-    elif (message.from_user.username == igor1) and (message.text.casefold() in lunch_synonyms):
-            bon = random.choice(dict)
-            bot.send_message(message.chat.id, f'{bon}, Игорямба!')
-            print(message.chat.id) 
-
-#             def cb():
-#                 bot.send_message(message.chat.id, '@Igor_Kirichek с возвращением Игорь!')
-#
-#             delay = 3600
-#             timer = threading.Timer(delay, cb)
-#             timer.start()
-    elif (message.text.casefold() == dnr1 or message.text.casefold() in lunch_synonyms):
+    elif (message.from_user.username == igor2) and (message.text.casefold() in lunch_synonyms):
+        bon = random.choice(dict)
+        bot.send_message(message.chat.id, f'{bon}, Игорямба!')
+        print(message.chat.id)
+    elif (message.from_user.username == ats) and (message.text.casefold() in lunch_synonyms):
+        bon = random.choice(dict)
+        atsa = open('gif/ats.gif', 'rb')
+        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+        bot.send_animation(message.chat.id, atsa)
+    #     elif (message.from_user.username == zhe) and (message.text.casefold() in lunch_synonyms):
+    # #       bon = random.choice(dict)
+    #         igor1 = open('gif/zhe.jpg', 'rb')
+    #         bot.send_photo(message.chat.id, igor1)
+    #
+    #        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+    #         bot.send_photo(message.chat.id, igor1)
+    #             def cb():
+    #                 bot.send_message(message.chat.id, '@Igor_Kirichek с возвращением Игорь!')
+    #
+    #             delay = 3600
+    #             timer = threading.Timer(delay, cb)
+    #             timer.start()
+    elif message.text.casefold() in lunch_synonyms:
         bon = random.choice(dict)
         bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
-        print(message.chat.id) 
+        print(message.chat.id)
 
 #@bot.message_handler(content_types=["sticker"])
 
@@ -250,6 +267,7 @@ def otkrytka1():
 #     global chatid
 #     chatid = message.chat.id
 
+
 def lol():
     schedule.every().monday.at("10:00", "Europe/Moscow").do(otkrytka1)
     schedule.every().tuesday.at("10:00", "Europe/Moscow").do(otkrytka1)
@@ -266,17 +284,16 @@ def main_loop():
     thread = Thread(target=lol)
     thread.start()
 
-    while(True):
+    while True:
         try:
-            bot.polling(none_stop=True) #падает на Mac
+            bot.polling(none_stop=True)  # падает на Mac
             # bot.infinity_polling()
         except Exception as ex:
             print(ex)
             sleep(15)
             # pass
+
 # schedule.every().second.do(utre4ko)
-
-
 
 
 # while True:

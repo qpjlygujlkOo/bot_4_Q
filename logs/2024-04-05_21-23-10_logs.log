@@ -1,0 +1,4 @@
+ 2024-04-05 21:23:10,548 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-04-05 21:23:12,472 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 427
+ 2024-04-05 21:23:32,523 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417647247&timeout=20 HTTP/1.1" 200 23
+ 2024-04-05 21:23:52,573 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417647247&timeout=20 HTTP/1.1" 200 23
