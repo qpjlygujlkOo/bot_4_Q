@@ -234,8 +234,8 @@ def otkrytka1():
     #     print(message.chat.id)
     #     global chatid
     #     chatid = message.chat.id
-    dirpath = "img/"
-    photofile = os.listdir('img')
+    dirpath = "img/sat"
+    photofile = os.listdir('img/sat')
     random_photo = random.choice(photofile)
     fullpath = os.path.join(dirpath, random_photo)
     with open(fullpath, 'rb') as f:
@@ -274,6 +274,7 @@ def lol():
     schedule.every().wednesday.at("10:00", "Europe/Moscow").do(otkrytka1)
     schedule.every().thursday.at("10:00", "Europe/Moscow").do(otkrytka1)
     schedule.every().friday.at("10:00", "Europe/Moscow").do(otkrytka1)
+    schedule.every().saturday.at("10:00", "Europe/Moscow").do(otkrytka1)
 
     while True:
         schedule.run_pending()
