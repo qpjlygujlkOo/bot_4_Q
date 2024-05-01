@@ -240,8 +240,21 @@ def otkrytka1():
     fullpath = os.path.join(dirpath, random_photo)
     with open(fullpath, 'rb') as f:
         bot.send_photo(-1001210129344, f)
-        bot.send_photo(110309785, f)
     # return schedule.CancelJob
+
+
+@bot.message_handler(commands=['hello'])
+def otkrytka2():
+    # print(chatid)
+    #     print(message.chat.id)
+    #     global chatid
+    #     chatid = message.chat.id
+    dirpath = "img/sat"
+    photofile = os.listdir('img/sat')
+    random_photo = random.choice(photofile)
+    fullpath = os.path.join(dirpath, random_photo)
+    with open(fullpath, 'rb') as f:
+        bot.send_photo(110309785, f)
 
 # Попытка переиграть Черноярова
 
@@ -281,9 +294,20 @@ def lol():
         time.sleep(1)
 
 
+def abc():
+    schedule.every().monday.at("10:00", "Europe/Moscow").do(otkrytka2)
+    schedule.every().tuesday.at("10:00", "Europe/Moscow").do(otkrytka2)
+    schedule.every().wednesday.at("10:00", "Europe/Moscow").do(otkrytka2)
+    schedule.every().thursday.at("10:00", "Europe/Moscow").do(otkrytka2)
+    schedule.every().friday.at("10:00", "Europe/Moscow").do(otkrytka2)
+    schedule.every().saturday.at("10:00", "Europe/Moscow").do(otkrytka2)
+
+
 def main_loop():
     thread = Thread(target=lol)
+    threads = Thread(target=abc)
     thread.start()
+    threads.start()
 
     while True:
         try:
