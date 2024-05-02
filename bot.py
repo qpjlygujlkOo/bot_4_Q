@@ -234,8 +234,8 @@ def otkrytka1():
     #     print(message.chat.id)
     #     global chatid
     #     chatid = message.chat.id
-    dirpath = "img/sat"
-    photofile = os.listdir('img/sat')
+    dirpath = "img"
+    photofile = os.listdir('img')
     random_photo = random.choice(photofile)
     fullpath = os.path.join(dirpath, random_photo)
     with open(fullpath, 'rb') as f:
@@ -249,8 +249,8 @@ def otkrytka2():
     #     print(message.chat.id)
     #     global chatid
     #     chatid = message.chat.id
-    dirpath = "img/sat"
-    photofile = os.listdir('img/sat')
+    dirpath = "img"
+    photofile = os.listdir('img')
     random_photo = random.choice(photofile)
     fullpath = os.path.join(dirpath, random_photo)
     with open(fullpath, 'rb') as f:
