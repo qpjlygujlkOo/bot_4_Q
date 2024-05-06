@@ -299,10 +299,10 @@ def abc():
     schedule.every().wednesday.at("10:00", "Europe/Moscow").do(otkrytka2)
     schedule.every().thursday.at("10:00", "Europe/Moscow").do(otkrytka2)
     schedule.every().friday.at("10:00", "Europe/Moscow").do(otkrytka2)
-
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    #
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)
 
 
 def main_loop():
