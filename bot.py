@@ -58,7 +58,7 @@ key = (token)
 qa1 = ('@Igor_Kirichek, @lexm18, @from_time_to_time, @glatemalin, @Azamat_Gu, @lena596')
 tl1 = ('@ivleonov, @oblivantseva')
 tlqa = ('@gryzb1')
-back1 = ('@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @av_sorokin')
+back1 = ('@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @av_sorokin, @AKS2001')
 front1 = ('@chimir, @a2aev')
 pm1 = ('@Becky_Bones, @OlgaStupenkova, @agantts')
 aqa1 = ('@glatemalin, @Azamat_Gu')
@@ -119,6 +119,7 @@ lunch_synonyms = [
     "0.5 обеда",
     "0,5 обеда"
 ]
+
 
 aza = "Azamat_Gu"
 igor2 = "Igor_Kirichek"
