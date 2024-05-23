@@ -128,6 +128,7 @@ ats = "a2aev"
 dnrstc1 = "AgADAgADA8KlDg"
 dnrstc2 = "AgADZgADqregFw"
 
+chatids = [-1001210129344]
 # @bot.message_handler(commands=['key'])
 
 # def key(message):
@@ -139,32 +140,32 @@ def qa(message):
     bot.send_message(message.chat.id,'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(commands=['tl'])
+@bot.message_handler(commands=['tl'], func=lambda message: message.chat.id in chatids)
 def tl(message):
     bot.send_message(message.chat.id,'Тимлиды! \n' + tl1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(commands=['front'])
+@bot.message_handler(commands=['front'], func=lambda message: message.chat.id in chatids)
 def front(message):
     bot.send_message(message.chat.id,'Фронты! \n' + front1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(commands=['back'])
+@bot.message_handler(commands=['back'], func=lambda message: message.chat.id in chatids)
 def back(message):
     bot.send_message(message.chat.id,'Бэки! \n' + back1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(commands=['pm'])
+@bot.message_handler(commands=['pm'], func=lambda message: message.chat.id in chatids)
 def mgr(message):
     bot.send_message(message.chat.id,'Манажеры! \n' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(commands=['aqa'])
+@bot.message_handler(commands=['aqa'], func=lambda message: message.chat.id in chatids)
 def aqa(message):
     bot.send_message(message.chat.id,'Авто<s>боты</s>тестировщики! \n' + aqa1.format(message.from_user, bot.get_me()), parse_mode='html')
 
 
-@bot.message_handler(commands=['all'])
+@bot.message_handler(commands=['all'], func=lambda message: message.chat.id in chatids)
 def all(message):
     bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' +
                      qa1.format(message.from_user, bot.get_me()), parse_mode='html')
@@ -178,7 +179,7 @@ def all(message):
                      pm1.format(message.from_user, bot.get_me()), parse_mode='html')
 
 
-@bot.message_handler(commands=['meet'])
+@bot.message_handler(commands=['meet'], func=lambda message: message.chat.id in chatids)
 def meetup(message):
     sti = open('stick/sticker.webp', 'rb')
 
