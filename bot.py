@@ -139,32 +139,32 @@ def qa(message):
     bot.send_message(message.chat.id,'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(chat_id=[-1001210129344], commands=['tl'])
+@bot.message_handler(commands=['tl'])
 def tl(message):
     bot.send_message(message.chat.id,'Тимлиды! \n' + tl1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(chat_id=[-1001210129344], commands=['front'])
+@bot.message_handler(commands=['front'])
 def front(message):
     bot.send_message(message.chat.id,'Фронты! \n' + front1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(chat_id=[-1001210129344], commands=['back'])
+@bot.message_handler(commands=['back'])
 def back(message):
     bot.send_message(message.chat.id,'Бэки! \n' + back1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(chat_id=[-1001210129344], commands=['pm'])
+@bot.message_handler(commands=['pm'])
 def mgr(message):
     bot.send_message(message.chat.id,'Манажеры! \n' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 
-@bot.message_handler(chat_id=[-1001210129344], commands=['aqa'])
+@bot.message_handler(commands=['aqa'])
 def aqa(message):
     bot.send_message(message.chat.id,'Авто<s>боты</s>тестировщики! \n' + aqa1.format(message.from_user, bot.get_me()), parse_mode='html')
 
 
-@bot.message_handler(chat_id=[-1001210129344], commands=['all'])
+@bot.message_handler(commands=['all'])
 def all(message):
     bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' +
                      qa1.format(message.from_user, bot.get_me()), parse_mode='html')
@@ -178,7 +178,7 @@ def all(message):
                      pm1.format(message.from_user, bot.get_me()), parse_mode='html')
 
 
-@bot.message_handler(chat_id=[-1001210129344], commands=['meet'])
+@bot.message_handler(commands=['meet'])
 def meetup(message):
     sti = open('stick/sticker.webp', 'rb')
 
