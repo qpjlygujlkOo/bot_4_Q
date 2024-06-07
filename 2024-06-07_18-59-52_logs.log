@@ -1,0 +1,15 @@
+ 2024-06-07 18:59:52,583 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-06-07 18:59:55,213 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 800
+ 2024-06-07 19:00:04,186 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417655658&timeout=20 HTTP/1.1" 200 561
+ 2024-06-07 19:00:04,187 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-06-07 19:00:04,371 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getMe HTTP/1.1" 200 229
+ 2024-06-07 19:00:04,650 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=-1001689797921&text=%D0%A2%D0%9E%D0%92%D0%90%D0%A0%D0%98%D0%A9%D0%98%21+%0A%40Igor_Kirichek%2C+%40lexm18%2C+%40from_time_to_time%2C+%40glatemalin%2C+%40Azamat_Gu%2C+%40lena596+%40ivleonov%2C+%40oblivantseva+%40mmeiko%2C+%40barysh_vn%2C+%40DmitryChernoyarov%2C+%40MaximB98%2C+%40av_sorokin%2C+%40AKS2001+%40R071Nx%2C+%40a2aev+%40Becky_Bones%2C+%40OlgaStupenkova%2C+%40agantts&parse_mode=html HTTP/1.1" 200 1395
+ 2024-06-07 19:00:04,937 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417655659&timeout=20 HTTP/1.1" 200 3116
+ 2024-06-07 19:00:04,939 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/pinChatMessage?chat_id=-1001689797921&message_id=59032&disable_notification=False HTTP/1.1" 200 25
+ 2024-06-07 19:00:06,038 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/unpinChatMessage?chat_id=-1001689797921&message_id=59032 HTTP/1.1" 200 25
+ 2024-06-07 19:00:08,592 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417655660&timeout=20 HTTP/1.1" 200 490
+ 2024-06-07 19:00:10,186 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417655661&timeout=20 HTTP/1.1" 200 508
+ 2024-06-07 19:00:12,890 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417655662&timeout=20 HTTP/1.1" 200 502
+ 2024-06-07 19:00:15,407 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417655663&timeout=20 HTTP/1.1" 200 502
+ 2024-06-07 19:00:18,422 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-06-07 19:00:18,612 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417655664&timeout=20 HTTP/1.1" 409 143
