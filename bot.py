@@ -165,7 +165,8 @@ def aqa(message):
     bot.send_message(message.chat.id,'Авто<s>боты</s>тестировщики! \n' + aqa1.format(message.from_user, bot.get_me()), parse_mode='html')
 
 
-@bot.message_handler(commands=['all'], func=lambda message: message.chat.id in chatids)
+@bot.message_handler(commands=['all'])
+# , func=lambda message: message.chat.id in chatids
 def all(message):
     pin_all = bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' +   qa1 + ' ' + tl1 + ' ' + back1 + ' ' + front1 + ' ' + pm1.format(message.from_user, bot.get_me()), parse_mode='html')
     bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_all)
