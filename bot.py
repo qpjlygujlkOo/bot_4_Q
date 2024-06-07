@@ -137,7 +137,7 @@ chatids = [-1001210129344]
 
 @bot.message_handler(commands=['qa'])
 def qa(message):
-    bot.send_message(message.chat.id,'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),parse_mode='html')
+    pin_qa = bot.send_message(message.chat.id,'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),parse_mode='html').message_id
 
 
 @bot.message_handler(commands=['tl'], func=lambda message: message.chat.id in chatids)
@@ -167,23 +167,18 @@ def aqa(message):
 
 @bot.message_handler(commands=['all'], func=lambda message: message.chat.id in chatids)
 def all(message):
-    bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' +
-                     qa1.format(message.from_user, bot.get_me()), parse_mode='html')
-    bot.send_message(message.chat.id,
-                     tl1.format(message.from_user, bot.get_me()), parse_mode='html')
-    bot.send_message(message.chat.id,
-                     front1.format(message.from_user, bot.get_me()), parse_mode='html')
-    bot.send_message(message.chat.id,
-                     back1.format(message.from_user, bot.get_me()), parse_mode='html')
-    bot.send_message(message.chat.id,
-                     pm1.format(message.from_user, bot.get_me()), parse_mode='html')
+    pin_all = bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' +   qa1 + ' ' + tl1 + ' ' + back1 + ' ' + front1 + ' ' + pm1.format(message.from_user, bot.get_me()), parse_mode='html')
+    bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_all)
+    bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_all)
 
 
 @bot.message_handler(commands=['meet'], func=lambda message: message.chat.id in chatids)
 def meetup(message):
     sti = open('stick/sticker.webp', 'rb')
 
-    bot.send_message(message.chat.id,'МИТИНГ! \n' + qa1 + ' ' + tl1 + ' ' + back1 + ' ' + front1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
+    pin_meet = bot.send_message(message.chat.id,'МИТИНГ! \n' + qa1 + ' ' + tl1 + ' ' + back1 + ' ' + front1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
+    bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_meet)
+    bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_meet)
     time.sleep(2)
     bot.send_sticker(message.chat.id, sti)
     bot.send_message(message.chat.id, f'https://meet.google.com/bxq-nsek-ept')
