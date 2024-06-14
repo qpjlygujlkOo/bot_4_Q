@@ -11,6 +11,7 @@ from threading import Thread
 from dotenv import load_dotenv
 from os.path import join, dirname
 from time import sleep
+from telebot import types, util
 from pytz import timezone
 import pytz
 
@@ -138,8 +139,14 @@ chatids = [-1001210129344]
 @bot.message_handler(commands=['qa'])
 def qa(message):
     pin_qa = bot.send_message(message.chat.id,'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),parse_mode='html').message_id
-    # bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_qa)
-    # bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_qa)
+    bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_qa)
+    bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_qa)
+
+
+@bot.message_handler(content_types=util.content_type_service)
+def delpinqa(message: types.Message):
+    bot.delete_message(message.chat.id, message.message_id)
+
 @bot.message_handler(commands=['tl'], func=lambda message: message.chat.id in chatids)
 def tl(message):
     bot.send_message(message.chat.id,'Тимлиды! \n' + tl1.format(message.from_user, bot.get_me()),parse_mode='html')
