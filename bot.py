@@ -143,9 +143,15 @@ def qa(message):
     bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_qa)
 
 
-# @bot.message_handler(content_types=util.content_type_service)
-# def delpinqa(message: types.Message):
-#     bot.delete_message(message.chat.id, message.message_id)
+@bot.message_handler(content_types=['pinned_message'])
+def delpinqa(message: types.Message):
+    msg = message.pinned_message
+
+    if 'IQObot' in msg:
+        bot.delete_message(message.chat.id, message.message_id)
+    else:
+        return False
+
 
 @bot.message_handler(commands=['tl'], func=lambda message: message.chat.id in chatids)
 def tl(message):
