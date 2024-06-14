@@ -146,7 +146,7 @@ def qa(message):
 
 
 @bot.message_handler(content_types=['pinned_message'])
-def delpinqa(pinned_message: types.Message):
+def delpin(pinned_message: types.Message):
     msg = pinned_message.from_user
 
     if 'meetingeveryone_bot' in msg.username:
