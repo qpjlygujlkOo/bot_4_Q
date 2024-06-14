@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 from os.path import join, dirname
 from time import sleep
 from telebot import types, util
+from bs4 import BeautifulSoup
+import json
 from pytz import timezone
 import pytz
 
@@ -144,11 +146,11 @@ def qa(message):
 
 
 @bot.message_handler(content_types=['pinned_message'])
-def delpinqa(message: types.Message):
-    msg = message.pinned_message
+def delpinqa(pinned_message: types.Message):
+    msg = pinned_message.from_user
 
-    if 'IQObot' in msg:
-        bot.delete_message(message.chat.id, message.message_id)
+    if 'meetingeveryone_bot' in msg.username:
+        bot.delete_message(pinned_message.chat.id, pinned_message.id)
     else:
         return False
 
