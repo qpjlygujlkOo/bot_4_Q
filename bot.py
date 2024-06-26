@@ -1,10 +1,8 @@
 import telebot
-# import config1
-import time
 from telebot import TeleBot
 from telebot.types import Message
 from telebot import types, util
-
+import asyncio
 
 import os
 from os.path import join, dirname
@@ -23,17 +21,20 @@ import random
 import logging
 
 import utro
+import delpin
+import commands
+import dinner
 from utro import fake_func1
 from commands import qa
 from dinner import obed
 from delpin import pindel
 
-import commands
-from bs4 import BeautifulSoup
-import json
-from pytz import timezone
-import pytz
-from variables import *
+# import commands
+# from bs4 import BeautifulSoup
+# import json
+# from pytz import timezone
+# import pytz
+# from variables import *
 
 
 # Добавление логирования
@@ -62,15 +63,15 @@ key = token
 
 
 # Подключение модуля команд
-qa(bot)
+# qa(bot)
 
 
 # Подключение модуля удаления пина
-pindel(bot)
+# pindel(bot)
 
 
 # Подключение модуля обеда
-obed(bot)
+# obed(bot)
 
 
 # Подключение модуля открыток
@@ -78,9 +79,16 @@ def main_loop():
     thread = Thread(target=fake_func1)
     thread_1 = Thread(target=utro.utro_anastas(bot))
     thread_2 = Thread(target=utro.utro_chat(bot))
+    # thread_3 = Thread(target=delpin.pindel(bot))
+    thread_4 = Thread(target=commands.qa(bot))
+    thread_5 = Thread(target=dinner.obed(bot))
+
     thread.start()
     thread_1.start()
     thread_2.start()
+    # thread_3.start()
+    thread_4.start()
+    thread_5.start()
 
     while True:
         try:
@@ -88,7 +96,7 @@ def main_loop():
             # bot.infinity_polling()
         except Exception as ex:
             print(ex)
-            sleep(15)
+            sleep(1)
             pass
 
 
