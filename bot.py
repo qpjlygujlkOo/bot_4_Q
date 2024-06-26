@@ -1,12 +1,26 @@
 import telebot
+<<<<<<< Updated upstream
 # import config1
 import time
+=======
+from telebot import TeleBot
+from telebot.types import Message
+from telebot import types, util
+
+
+>>>>>>> Stashed changes
 import os
-import random
+from os.path import join, dirname
+from dotenv import load_dotenv
+
 import threading
-import logging
+from threading import Thread
+
+import time
+from time import sleep
 import datetime
 import schedule
+<<<<<<< Updated upstream
 from threading import Thread
 from dotenv import load_dotenv
 from os.path import join, dirname
@@ -18,19 +32,39 @@ now = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 logger = telebot.logger
 logging.basicConfig(filename=f'logs/{now}_logs.log', level=logging.DEBUG,
                     format=' %(asctime)s - %(levelname)s - %(message)s')
+=======
+
+import random
+
+import logging
+
+import utro
+from utro import fake_func1
+from commands import qa
+from dinner import obed
+from delpin import pindel
+
+# import commands
+# from bs4 import BeautifulSoup
+# import json
+# from pytz import timezone
+# import pytz
+# from variables import *
+>>>>>>> Stashed changes
 
 
-# print(logging.__file__)
+# Добавление логирования
+# now = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 # logger = telebot.logger
-# logging.basicConfig(filename='logs.log',
+# logging.basicConfig(filename = f'{now}_logs.log', level=logging.DEBUG,
 #                     format=' %(asctime)s - %(levelname)s - %(message)s')
-# logging.debug("A DEBUG Message")
-# logging.info("An INFO")
-# logging.warning("A WARNING")
-# logging.error("An ERROR")
-# logging.critical("A message of CRITICAL severity")
 
+<<<<<<< Updated upstream
 # token = os.environ['TOKEN']
+=======
+
+# Подключение токена
+>>>>>>> Stashed changes
 def get_from_env(key):
     dotenv_path = join(dirname(__file__), 'tokens.env')
     load_dotenv(dotenv_path)
@@ -39,21 +73,20 @@ def get_from_env(key):
 
 token = get_from_env('TG_BOT_TOKEN')
 bot = telebot.TeleBot(token)
-print(logging.__file__)
-f = open('dict.txt', 'r', encoding='utf-8')
-list = f.read().split('\n')
-dict = tuple(list)
+key = token
 
 
-def main():
-    # ...
-    port = os.getenv('PORT', default=8000)
-    updater.start_webhook(port=port)
+# def main():
+#     # ...
+#     port = os.getenv('PORT', default=8000)
+#     updater.start_webhook(port=port)
 
 
-# bot = telebot.TeleBot(config1.TOKEN)
+# Подключение модуля команд
+qa(bot)
 
 
+<<<<<<< Updated upstream
 key = (token)
 qa1 = ('@Igor_Kirichek, @lexm18, @from_time_to_time, @glatemalin, @inside4276, @Azamat_Gu, @lena596')
 tl1 = ('@ivleonov, @oblivantseva, @av_sorokin')
@@ -293,6 +326,24 @@ def lol():
 def main_loop():
     thread = Thread(target=lol)
     thread.start()
+=======
+# Подключение модуля удаления пина
+pindel(bot)
+
+
+# Подключение модуля обеда
+obed(bot)
+
+
+# Подключение модуля открыток
+def main_loop():
+    thread = Thread(target=fake_func1)
+    thread_1 = Thread(target=utro.utro_anastas(bot))
+    thread_2 = Thread(target=utro.utro_chat(bot))
+    thread.start()
+    thread_1.start()
+    thread_2.start()
+>>>>>>> Stashed changes
 
     while (True):
         try:
@@ -301,8 +352,9 @@ def main_loop():
         except Exception as ex:
             print(ex)
             sleep(15)
-            # pass
+            pass
 
+<<<<<<< Updated upstream
 
 # schedule.every().second.do(utre4ko)
 
@@ -315,3 +367,11 @@ if __name__ == '__main__':
     main_loop()
 
 # bot.polling(none_stop=True)
+=======
+
+if __name__ == '__main__':
+    main_loop()
+# if __name__ == '__main__':
+# bot.polling(none_stop=True)
+# # bot.polling(none_stop=True)
+>>>>>>> Stashed changes
