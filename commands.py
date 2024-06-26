@@ -85,7 +85,7 @@ def qa(bot):
     def delpin(pinned_message: types.Message):
         msg = pinned_message.from_user
 
-        if 'CloudBoTy_bot' in msg.username:
+        if 'meetingeveryone_bot' in msg.username:
             time.sleep(30)
             bot.delete_message(pinned_message.chat.id, pinned_message.id)
         else:
