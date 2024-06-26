@@ -91,14 +91,6 @@ def main_loop():
             sleep(15)
             pass
 
-<<<<<<< Updated upstream
-
-# schedule.every().second.do(utre4ko)
-
-
-# while True:
-#     schedule.run_pending()
-=======
 
 if __name__ == '__main__':
     main_loop()
