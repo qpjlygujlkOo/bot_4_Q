@@ -1,10 +1,10 @@
-qa1 = '@Igor_Kirichek, @lexm18, @glatemalin, @Azamat_Gu, @lena596, @Tres568'
+qa1 = '@Igor_Kirichek, @lexm18, @Azamat_Gu, @lena596, @Tres568'
 tl1 = '@barysh_vn, @oblivantseva'
 tlqa = '@gryzb1'
 back1 = '@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @av_sorokin, @AKS2001'
 front1 = '@chimir, @a2aev, @R071Nx'
 pm1 = '@Becky_Bones, @OlgaStupenkova, @agantts'
-aqa1 = '@glatemalin, @Azamat_Gu'
+aqa1 = '@Azamat_Gu'
 aza = "Azamat_Gu"
 igor2 = "Igor_Kirichek"
 ats = "a2aev"
