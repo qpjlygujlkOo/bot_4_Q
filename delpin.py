@@ -12,3 +12,4 @@ def pindel(bot):
             bot.delete_message(pinned_message.chat.id, pinned_message.id)
         else:
             return False
+кв
