@@ -81,6 +81,20 @@ def qa(bot):
         else:
             pass
 
+    @bot.message_handler(commands=['tlqqq'])
+    def whatmsg(message):
+        try:
+            msg = bot.send_message(71931403, 'что пишем?')
+            bot.register_next_step_handler(msg, msgtochat)
+        except Exception as e:
+            bot.send_message(71931403, 'ex!!')
+
+    def msgtochat(message):
+        try:
+            bot.send_message(-1001210129344, message.text)
+        except Exception as e:
+            bot.send_message(71931403, 'ex')
+
     @bot.message_handler(content_types=['pinned_message'])
     def delpin(pinned_message: types.Message):
         msg = pinned_message.from_user
