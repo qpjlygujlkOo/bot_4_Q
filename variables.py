@@ -1,7 +1,7 @@
 qa1 = '@Azamat_Gu, @lexm18, @Igor_Kirichek, @lena596, @Vint_are_ez'
 tl1 = '@ivleonov, @oblivantseva'
 tlqa = '@gryzb1'
-back1 = '@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @AKS2001'
+back1 = '@mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98, @AKS2001, @av_sorokin'
 front1 = '@a2aev, @d1gl8'
 pm1 = '@Becky_Bones, @OlgaStupenkova, @agantts'
 aqa1 = '@Azamat_Gu'
