@@ -2,3 +2,4 @@ config.py
 tokens.env
 logs/
 bot_4_IQOS.rar
+__pycache__/
