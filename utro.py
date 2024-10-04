@@ -2,6 +2,7 @@ import schedule
 import os
 import random
 import time
+from variables import *
 
 
 # def oo(bot):
@@ -39,7 +40,7 @@ def utro_chat(bot):
         random_photo = random.choice(photofile)
         fullpath = os.path.join(dirpath, random_photo)
         with open(fullpath, 'rb') as f:
-            bot.send_photo(-1001210129344, f)
+            bot.send_photo(chatidTestir, f)
 
     schedule.every().monday.at("10:00", "Europe/Moscow").do(utro_chat_i)
     schedule.every().tuesday.at("10:00", "Europe/Moscow").do(utro_chat_i)
@@ -56,7 +57,7 @@ def utro_anastas(bot):
         random_photo = random.choice(photofile)
         fullpath = os.path.join(dirpath, random_photo)
         with open(fullpath, 'rb') as f:
-            bot.send_photo(110309785, f)
+            bot.send_photo(chatidAnastas, f)
 
     schedule.every().monday.at("10:00", "Europe/Moscow").do(utro_anastas_i)
     schedule.every().tuesday.at("10:00", "Europe/Moscow").do(utro_anastas_i)
