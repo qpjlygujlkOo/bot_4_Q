@@ -26,7 +26,7 @@ import commands
 import dinner
 from utro import fake_func1
 from commands import qa
-from dinner import obed
+from dinner import *
 from delpin import pindel
 
 # import commands
