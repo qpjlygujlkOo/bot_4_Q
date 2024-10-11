@@ -6,7 +6,7 @@ front1 = '@chimir, @a2aev, @d1gl8'
 pm1 = '@agantts, @Becky_Bones'
 aqa1 = '@Azamat_Gu'
 aza = "Azamat_Gu"
-igor = "Igor_Kirichek"
+igor2 = "Igor_Kirichek"
 ats = "a2aev"
 
 
@@ -34,9 +34,6 @@ lunch_synonyms = [
     "пора покушать",
     "обед",
     "покушот",
-]
-
-lunch_half = [
     "пол обеда",
     "половинка обеда",
     "1/2 обеда",
