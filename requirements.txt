@@ -9,8 +9,8 @@ requests==2.25.1
 six==1.15.0
 urllib3==1.26.5
 virtualenv==20.4.2
-
 Flask~=3.0.0
 schedule~=1.2.1
 pytz~=2023.3.post1
 python-dotenv~=1.0.0
+beautifulsoup4~=4.12.3

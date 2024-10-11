@@ -1,0 +1,10 @@
+ 2024-03-18 19:56:34,160 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-03-18 19:56:34,721 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 1641
+ 2024-03-18 19:56:34,725 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-03-18 19:56:34,726 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-03-18 19:56:35,181 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getMe HTTP/1.1" 200 197
+ 2024-03-18 19:56:35,181 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getMe HTTP/1.1" 200 197
+ 2024-03-18 19:56:35,463 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%D0%A2%D0%B8%D0%BC%D0%BB%D0%B8%D0%B4%D1%8B%21+%0A%40ivleonov%2C+%40av_sorokin&parse_mode=html HTTP/1.1" 200 439
+ 2024-03-18 19:56:35,493 - DEBUG - https://api.telegram.org:443 "POST /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/sendMessage?chat_id=71931403&text=%D0%A2%D0%B8%D0%BC%D0%BB%D0%B8%D0%B4%D1%8B%21+%0A%40ivleonov%2C+%40av_sorokin&parse_mode=html HTTP/1.1" 200 439
+ 2024-03-18 19:56:43,753 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+ 2024-03-18 19:56:44,130 - DEBUG - https://api.telegram.org:443 "GET /bot1548279772:AAHFSr5sYKty6vQb7QK3i6Oa3Mm-8Z1LAi8/getUpdates?offset=417644322&timeout=20 HTTP/1.1" 409 143
