@@ -34,7 +34,6 @@ def obed(bot):
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
             obedaet = True
         if obedaet:
-            print('kuku')
             obed_times[message.from_user.username] = datetime.now()
             print(message.chat.id)
 
@@ -46,23 +45,17 @@ def obed(bot):
             bot.send_animation(message.chat.id, exp)
             obedaet = True
         elif (message.from_user.username == igor) and (message.text.casefold() in lunch_half):
-            bon = random.choice(dict)
             bot.send_message(message.chat.id, f'{bon}, Игорямба!')
             obedaet = True
         elif (message.from_user.username == ats) and (message.text.casefold() in lunch_half):
-            bon = random.choice(dict)
             atsa = open('gif/ats.gif', 'rb')
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
             bot.send_animation(message.chat.id, atsa)
             obedaet = True
         elif message.text.casefold() in lunch_half:
-            bon = random.choice(dict)
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
-            a = message.from_user.username
-            print(a)
             obedaet = True
         if obedaet:
-            print('kuku')
             obed_times_half[message.from_user.username] = datetime.now()
             print(message.chat.id)
 
