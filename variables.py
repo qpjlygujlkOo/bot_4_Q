@@ -1,4 +1,4 @@
-qa1 = '@lexm18, @Igor_Kirichek, @Vint_are_ez, @from_time_to_time'
+qa1 = '@lexm18, @Igor_Kirichek, @Vint_are_ez, @from_time_to_time, @lena596'
 tl1 = '@ivleonov'
 tlqa = '@gryzb1'
 back1 = '@mmeiko, @barysh_vn, @AKS2001, @DmitryChernoyarov'
