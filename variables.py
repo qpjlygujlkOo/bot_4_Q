@@ -1,8 +1,8 @@
-qa1 = '@lexm18, @Igor_Kirichek, @Vint_are_ez, @from_time_to_time, @lena596'
+qa1 = '@lexm18, @Igor_Kirichek, @Vint_are_ez, @from_time_to_time, @lena596, @Azamat_Gu'
 tl1 = '@ivleonov'
 tlqa = '@gryzb1'
-back1 = '@mmeiko, @barysh_vn, @AKS2001, @DmitryChernoyarov'
-front1 = '@chimir, @d1gl8'
+back1 = '@mmeiko, @barysh_vn, @AKS2001, @DmitryChernoyarov, @MaximB98'
+front1 = '@chimir, @d1gl8, @a2aev'
 pm1 = '@agantts, @Becky_Bones, @OlgaStupenkova'
 aqa1 = '@Azamat_Gu'
 aza = "Azamat_Gu"
