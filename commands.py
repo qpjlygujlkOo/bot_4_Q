@@ -70,7 +70,7 @@ def qa(bot):
             pin_all = bot.send_message(message.chat.id, 'ТОВАРИЩИ! \n' + qa1 + ' ' + tl1 + ' ' + back1 + ' ' + front1 +
                                        ' ' + pm1.format(message.from_user, bot.get_me()), parse_mode='html').message_id
             bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_all)
-            time.sleep(30)
+            t.sleep(30)
             bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_all)
         else:
             pass
@@ -85,9 +85,9 @@ def qa(bot):
             bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_meet)
             bot.send_sticker(message.chat.id, sti)
             bot.send_message(message.chat.id, f'https://meet.google.com/bxq-nsek-ept')
-            time.sleep(30)
+            t.sleep(30)
             bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_meet)
-            time.sleep(2)
+            t.sleep(2)
 
         else:
             pass
@@ -111,7 +111,7 @@ def qa(bot):
         msg = pinned_message.from_user
 
         if 'meetingeveryone_bot' in msg.username:
-            time.sleep(30)
+            t.sleep(30)
             bot.delete_message(pinned_message.chat.id, pinned_message.id)
         else:
             pass
