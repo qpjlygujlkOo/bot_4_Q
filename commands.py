@@ -1,4 +1,4 @@
-import time
+import time as t
 from datetime import *
 from variables import *
 from telebot import types
@@ -15,7 +15,7 @@ def qa(bot):
             pin_qa = bot.send_message(message.chat.id, 'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),
                                   parse_mode='html').message_id
             bot.pin_chat_message(chat_id=message.chat.id, message_id=pin_qa)
-            time.sleep(30)
+            t.sleep(30)
             bot.unpin_chat_message(chat_id=message.chat.id, message_id=pin_qa)
 
         elif dnd in qa_rest:
