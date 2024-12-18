@@ -18,7 +18,7 @@ def obed(bot):
         bon = random.choice(dict_obed)
         obedaet = False
         if (message.from_user.username == aza) and (message.text.casefold() in lunch_synonyms):
-            exp = open('gif/cat.gif', 'rb')
+            exp = open('ats_pipi.gif', 'rb')
             bot.send_message(message.chat.id, f'ب الهناء والشفاء / بالهنا والشف!, {message.from_user.first_name}!')
             bot.send_animation(message.chat.id, exp)
             obedaet = True
