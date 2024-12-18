@@ -26,7 +26,7 @@ def obed(bot):
             bot.send_message(message.chat.id, f'{bon}, Игорямба!')
             obedaet = True
         elif (message.from_user.username == ats) and (message.text.casefold() in lunch_synonyms):
-            atsa = open('gif/ats.gif', 'rb')
+            atsa = open('gif/ats_pipi.gif', 'rb')
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
             bot.send_animation(message.chat.id, atsa)
             obedaet = True
