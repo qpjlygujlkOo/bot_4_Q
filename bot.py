@@ -29,7 +29,7 @@ from commands import qa
 from dinner import *
 from delpin import pindel
 
-# import commands
+import commands
 # from bs4 import BeautifulSoup
 # import json
 # from pytz import timezone
