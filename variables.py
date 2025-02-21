@@ -1,5 +1,5 @@
 qa1 = '@lexm18, @Vint_are_ez, @from_time_to_time, @Azamat_Gu'
-tl1 = '@oblivantseva'
+tl1 = '@ivleonov'
 tlqa = '@gryzb1'
 back1 = '@barysh_vn, @AKS2001, @serg_digital, @MaximB98'
 front1 = '@chimir, @a2aev'
