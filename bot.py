@@ -38,7 +38,7 @@ import commands
 
 
 # Добавление логирования
-now = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 logger = telebot.logger
 logging.basicConfig(filename = f'{now}_logs.log', level=logging.DEBUG,
                     format=' %(asctime)s - %(levelname)s - %(message)s')
