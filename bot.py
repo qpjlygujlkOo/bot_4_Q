@@ -94,8 +94,9 @@ def main_loop():
         try:
             bot.polling(none_stop=True)  # падает на Mac
             # bot.infinity_polling()
-        except Exception as ex:
-            print(ex)
+        except Exception as e:
+            print(type(e))  # <class 'ZeroDivisionError'>
+            print(e)  # division by zero
             sleep(1)
             pass
 
