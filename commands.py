@@ -1,5 +1,6 @@
 import time as t
 from datetime import *
+from zoneinfo import ZoneInfo
 from variables import *
 from telebot import types
 
@@ -8,9 +9,10 @@ def qa(bot):
 
     @bot.message_handler(commands=['qa'])
     def qaa(message):
-        qatime = datetime.now()
+        qatime = datetime.now(tz=ZoneInfo('Europe/Moscow'))
         dnd = qatime.strftime("%H")
         print(qatime.strftime("%H"))
+
         if dnd in work_hours:
             pin_qa = bot.send_message(message.chat.id, 'Тестировщики! \n' + qa1.format(message.from_user, bot.get_me()),
                                   parse_mode='html').message_id
