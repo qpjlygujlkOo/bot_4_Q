@@ -8,6 +8,8 @@ aqa1 = '@Azamat_Gu'
 aza = "Azamat_Gu"
 igor = "Igor_Kirichek"
 ats = "a2aev"
+dasha = "Becky_Bones"
+nasty = "oblivantseva"
 
 
 lunch_synonyms = [

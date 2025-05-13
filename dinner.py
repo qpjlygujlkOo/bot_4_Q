@@ -30,6 +30,16 @@ def obed(bot):
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
             bot.send_animation(message.chat.id, atsa)
             obedaet = True
+        elif (message.from_user.username == dasha) and (message.text.casefold() in lunch_synonyms):
+            dash = open('gif/rat.gif', 'rb')
+            bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+            bot.send_animation(message.chat.id, dash)
+            obedaet = True
+        elif (message.from_user.username == nasty) and (message.text.casefold() in lunch_synonyms):
+            nast = open('gif/catnast.gif', 'rb')
+            bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+            bot.send_animation(message.chat.id, nast)
+            obedaet = True
         elif message.text.casefold() in lunch_synonyms:
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
             obedaet = True
@@ -51,6 +61,16 @@ def obed(bot):
             atsa = open('gif/ats_dinner.gif', 'rb')
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
             bot.send_animation(message.chat.id, atsa)
+            obedaet = True
+        elif (message.from_user.username == dasha) and (message.text.casefold() in lunch_half):
+            dash = open('gif/rat.gif', 'rb')
+            bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+            bot.send_animation(message.chat.id, dash)
+            obedaet = True
+        elif (message.from_user.username == nasty) and (message.text.casefold() in lunch_half):
+            nast = open('gif/catnast.gif', 'rb')
+            bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
+            bot.send_animation(message.chat.id, nast)
             obedaet = True
         elif message.text.casefold() in lunch_half:
             bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
